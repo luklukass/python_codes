@@ -15,7 +15,7 @@ def plot_dda(x1, y1, x2, y2): # funcion
 	dx = abs(x1 - x2)
 	dy = abs(y1 - y2)
 
-	num=max(dx,dy) # number of coordinates between two points
+	num=max(dx,dy) + 1 # number of coordinates between two points, one is added to include also the end point
 
 	# calculate the increment in x and y 
 	xi = 1     # 1 pixel
