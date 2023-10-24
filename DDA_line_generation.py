@@ -1,5 +1,6 @@
 
 """
+Theory
 From [x1,y2] and [x2,y2] compute dy|dx and next -->
 Steps: until x1<x2 do:
 	1) print point [x,round(y)]
